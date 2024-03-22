@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React, {useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/Logo.png'
 import circle from '../../assets/Ellipse 1.png'

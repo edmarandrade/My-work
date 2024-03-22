@@ -1,0 +1,21 @@
+.title-second{
+    width: 1239px;
+    margin: 70px auto;
+    line-height: 26px;
+    padding: 8px 12px;
+}
+.title-second p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #4E4E4E;
+}
+.title-second h2{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+}

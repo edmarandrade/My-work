@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './Hero.css'
 import hero from '../../assets/Info-1.png'
@@ -14,7 +13,9 @@ const Hero = () => {
         <img src={hero} alt="hero-principal" className='hero-left'/>
       </div>
       <div className="box-form">
-        <img src={background_form} alt="imagem-fundo" className='background-form'/>
+        <div className='background-form'>
+        <img src={background_form} alt="imagem-fundo" />
+        </div>
         <div className="container-search">
           <div className="search-box">
             <input type="text" className='search-input' placeholder='your domain name here ....' />
